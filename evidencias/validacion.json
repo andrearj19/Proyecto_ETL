@@ -1,0 +1,33 @@
+{
+  "fuentes": [
+    {
+      "archivo": "poblacion_total.json",
+      "indicador": "SP.POP.TOTL",
+      "fecha_version_fuente": "2026-11-11",
+      "sha256": "8d0c8f023239f9456f972d890513b7340f744aeb9ec66b362682bee823e90fca",
+      "filas": 10,
+      "claves_unicas": 10,
+      "duplicados_identicos": 0,
+      "valores_nulos": 0
+    },
+    {
+      "archivo": "uso_internet.json",
+      "indicador": "IT.NET.USER.ZS",
+      "fecha_version_fuente": "2026-11-11",
+      "sha256": "c3907a293c6e4e575fc1de6ff176f54bf017cc1f43b497789be207f9dc533528",
+      "filas": 10,
+      "claves_unicas": 10,
+      "duplicados_identicos": 0,
+      "valores_nulos": 1
+    }
+  ],
+  "filas_integradas": 10,
+  "claves_unicas_integradas": 10,
+  "claves_emparejadas": 10,
+  "anios_sin_correspondencia_en_internet": [],
+  "anios_sin_valor_de_internet": [
+    2025
+  ],
+  "estimaciones_calculadas": 9,
+  "validacion_rangos": "correcta"
+}
